@@ -9,7 +9,7 @@ body {
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
-  // Fixes glitch
+  /* Fixes glitch (initially showing) for the animation */
   backface-visibility: hidden;
   margin-bottom: 6rem;
   &--main {

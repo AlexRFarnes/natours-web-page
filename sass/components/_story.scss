@@ -12,11 +12,11 @@
     width: 15rem;
     height: 15rem;
     float: left;
-    // Creates the circle shape so text floats around it
+    /* Creates the circle shape so text floats around it */
     -webkit-shape-outside: circle(50% at 50% 50%);
     -moz-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
-    // Transform the square image into a circle
+    /* Transform the square image into a circle */
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
@@ -25,7 +25,7 @@
   &__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    // Fixes glitches and problems when working with transforms, transitions, and animations
+    /* Fixes glitches and problems when working with transforms, transitions, and animations */
     backface-visibility: hidden;
     transition: all 0.5s;
   }

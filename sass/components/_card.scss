@@ -1,9 +1,9 @@
 .card {
-  // FUNCTIONALITY
+  /* FUNCTIONALITY */
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; // fix the height because its child elements are out of the normal flow to prevent it from collapsing and losing the perspective
+  height: 52rem; /* fix the height because its child elements are out of the normal flow to prevent it from collapsing and losing the perspective */
 
   &__side {
     height: 52rem;
@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    backface-visibility: hidden; // to hid the back part
+    backface-visibility: hidden; /* to hid the back part */
     border-radius: $small-border-radius;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     overflow: hidden;
@@ -48,17 +48,17 @@
     }
   }
 
-  // .card:hover .card__side
+  /* .card:hover .card__side */
   &:hover &__side--front {
     transform: rotateY(
       -180deg
-    ); // negative so it follows the same direction as the back
+    ); /* negative so it follows the same direction as the back */
   }
   &:hover &__side--back {
     transform: rotateY(0);
   }
 
-  // FRONT SIDE STYLING
+  /* FRONT SIDE STYLING */
   &__picture {
     background-size: cover;
     height: 23rem;
@@ -155,7 +155,7 @@
     }
   }
 
-  // BACK SIDE STYLING
+  /* BACK SIDE STYLING */
   &__cta {
     position: absolute;
     top: 50%;

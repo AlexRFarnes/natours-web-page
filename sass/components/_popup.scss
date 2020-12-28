@@ -19,7 +19,7 @@
     display: table;
     overflow: hidden;
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.25); // Only one transform declaration per block is allowed currently
+    transform: translate(-50%, -50%) scale(0.25); /* Only one transform declaration per block is allowed currently */
     transition: all 0.4s 0.2s;
   }
 
@@ -57,7 +57,7 @@
     hyphens: auto;
   }
 
-  // Open states
+  /* Open state */
   &:target {
     opacity: 1;
     visibility: visible;

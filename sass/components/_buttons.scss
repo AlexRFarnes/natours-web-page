@@ -2,8 +2,8 @@
   &,
   &:link,
   &:visited {
-    // Only <a> elements posses link, visited, hover and active pseudo-class
-    // Add the <button> element because it does not has link and visited states
+    /* Only <a> elements posses link, visited, hover and active pseudo-class */
+    /* Add the <button> element because it does not has link and visited states */
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
@@ -13,7 +13,7 @@
     position: relative;
     font-size: $default-font-size;
 
-    // <button> properties
+    /* <button> properties */
     border: none;
     cursor: pointer;
   }
@@ -68,7 +68,7 @@
 
   &--animated {
     animation: moveInBottom 0.5s ease-out 0.5s;
-    animation-fill-mode: backwards; /* Automatically applies the stytles of the intital animation (0%) before it begins the animation*/
+    animation-fill-mode: backwards; /* Automatically applies the stytles of the intital animation (0%) before it begins the animation */
   }
 }
 
