@@ -179,7 +179,7 @@
     font-weight: 100;
   }
 
-  @include respond(tab-port) {
+  @media (max-width: 56.25em), (hover: none) {
     /* FUNCTIONALITY */
     height: auto;
     border-radius: $small-border-radius;
